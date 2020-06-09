@@ -1,5 +1,6 @@
 .about{
     background-color: #f1f1f1;
+    padding: 3rem 0;
 }
 .about-info{
     height: 60vh;
@@ -40,6 +41,7 @@
 @media screen and (max-width:768px){
     .about{
         flex-direction: column-reverse;
+        padding: .8rem;
     }
     .about-info{
         height:auto;

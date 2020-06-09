@@ -21,8 +21,8 @@
 <body>
     <!---------------------------------------------------------navugation-------------------------------------------------->
 
-    <nav class="nav centralize-childs flex-column">
-        <ul class="">
+    <nav class="nav centralize-childs">
+        <ul class="flex-row flex-column">
             <li><a href="" class="link"><i class="fas fa-home"></i></a></li>
             <li><a href="" class="link"><i class="fas fa-keyboard"></i></a></li>
             <li><a href="" class="link"><i class="fas fa-coffee"></i></a></li>
@@ -30,34 +30,30 @@
         </ul>
     </nav>
 
-
+    <header id="header">
+        <div class="logo-container  centralize-childs">
+            <img src="/assets/logo/logo.png" alt=""><a href="#" id="logo">LootBOX</a>
+        </div>
+    </header>
 
     <!-------------------------X-------------------------navugation------------------------X-------------------------->
 
 
     <main>
 
-        
         <!------------------------------------------------introduction---------------------------------------------------->
-        
-        <div>
-            <header id="header">
-				<div class="logo-container  centralize-childs">
-                    <img src="/assets/logo/logo.png" alt=""><a href="#" id="logo">LootBOX</a>
+
+        <div class="intro flex-row">
+            <div class="title-container flex-row">
+                <div class="title">
+                    <h1>Premium HeadPhones</h1>
+                    <h2>Soothing Experiences</h2>
+                    <p>Your complete solution for <span>web design</span></p>
+                    <a href="" class="hero-link">Buy Bow</a><a class="hero-link" href="">View</a>
                 </div>
-            </header>
-            <div class="intro flex-row">
-                <div class="title-container flex-row">
-                    <div class="title">
-                        <h1>Premium HeadPhones</h1>
-                        <h2>Soothing Experiences</h2>
-                        <p>Your complete solution for <span>web design</span></p>
-                        <a href="" class="hero-link">Buy Bow</a><a class="hero-link" href="">View</a>
-                    </div>
-                </div>
-                <div class="device-imgs-container flex-row">
-                    <img src="./assets/home/hero-headphone.png" alt="">
-                </div>
+            </div>
+            <div class="device-imgs-container flex-row">
+                <img src="./assets/home/hero-headphone.png" alt="">
             </div>
         </div>
 
@@ -109,8 +105,8 @@
                     <img src="./assets/items/headphon1.png" alt="">
                 </div>
                 <div class="product-detail flex-row flex-column">
-                    <h1>
-                        BrandName MOdel
+                    <h1 class="product-detail-product-name">
+                        BrandName <br> MOdel
                     </h1>
                     <a href="" class="why-premium">Why It's premium</a>
                     <p class="product-detail-dt">
@@ -231,7 +227,7 @@
                     </div>
                 </div>
             </div>
-            <div class="blog-card flex-row centralize-childs">
+            <div class="blog-card  centralize-childs">
                 <div class="blog-post-img"><img src="/assets/home/hero-headphone.png" alt=""></div>
                 <div class="blog-post-info">
                     <div class="blog-post-date">
