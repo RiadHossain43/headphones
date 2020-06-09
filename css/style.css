@@ -145,6 +145,7 @@ input,textarea,button{
 }
 .title p{
     font-size: 1.5rem;
+    color: #eeeeee;
 }
 .hero-link{
     display: inline-block;
