@@ -9,6 +9,11 @@
     border:5px solid #333333;
     text-align: justify;
     padding: 3rem;
+    font-size: 1rem;
+    line-height: 1;
+}
+.about-info-title{
+    margin-bottom: .5rem;
 }
 .about-visuals{
     position: relative;

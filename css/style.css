@@ -150,7 +150,7 @@ input,textarea,button{
     display: inline-block;
     padding: 1rem;
     background-color: #372F76;
-    margin: 1rem;
+    margin-right: 1rem;
 }
 .hero-link:nth-of-type(2){
     background-color: transparent;
@@ -164,7 +164,7 @@ input,textarea,button{
     align-items: center;
     /* background-color: rgba(0,0,0,.1); */
     border: 5rem solid  rgba(0,0,0,.1);
-    border-radius: 10% 10% 37% 10% / 0% 0% 41% 0%  ;
+    border-radius: 0% 4% 48% 52% / 44% 12% 41% 25%  ;
 }
 .device-imgs-container > img{
     position: absolute;

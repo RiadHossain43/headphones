@@ -13,7 +13,6 @@ const intro = eleCls('intro')
 let navAnim = () => {
     let headbound = header.getBoundingClientRect()
     let introbound = intro[0].getBoundingClientRect()
-    console.log(headbound.top)
     if (introbound.top < -220){
         if(window.innerWidth>768)
             set_style(header, { backgroundColor: 'black', boxShadow: '0 0 0 black' , height:'14vh'})

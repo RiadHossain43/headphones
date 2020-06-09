@@ -41,8 +41,7 @@
 }
 .project-bg2{
     background-image: url('/assets/projects/freaturesbg2.jpg');
-
-
+    background-position: center;
 }
 @media only screen and (max-width:768px) {
     .projects{
