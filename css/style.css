@@ -194,7 +194,7 @@ input,textarea,button{
         height: 15vh;
     }
     main{
-        margin:0;
+        margin:0 0 10vh 0;
     }
     .brand-name,.nav,.social{
         height: 8vh;
